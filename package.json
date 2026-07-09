@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallhronboard-mcp",
+  "version": "1.0.0",
+  "description": "fallhronboard MCP server · stdio wrapper around @ai-native-solutions/fallhronboard-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallhronboard-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallhronboard", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallhronboard-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallhronboard-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
